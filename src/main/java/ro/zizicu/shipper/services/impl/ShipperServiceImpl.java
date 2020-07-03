@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
+import ro.zizicu.nwbase.impl.CrudServiceImpl;
 import ro.zizicu.shipper.data.ShipperRepository;
 import ro.zizicu.shipper.entities.Shipper;
 import ro.zizicu.shipper.services.ShipperService;

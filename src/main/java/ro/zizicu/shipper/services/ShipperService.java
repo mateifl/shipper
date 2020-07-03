@@ -2,6 +2,7 @@ package ro.zizicu.shipper.services;
 
 import java.util.List;
 
+import ro.zizicu.nwbase.service.CrudService;
 import ro.zizicu.shipper.entities.Shipper;
 
 public interface ShipperService extends CrudService<Shipper, Integer>  {

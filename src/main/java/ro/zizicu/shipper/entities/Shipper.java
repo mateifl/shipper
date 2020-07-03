@@ -6,6 +6,9 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import ro.zizicu.nwbase.entity.IdentityOwner;
+
+
 @Entity
 @Table(name = "shippers")
 public class Shipper implements IdentityOwner<Integer> {
