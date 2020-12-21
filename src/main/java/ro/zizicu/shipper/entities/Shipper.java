@@ -20,8 +20,6 @@ public class Shipper implements IdentityOwner<Integer> {
 	private String companyName;
 	private String phone;
 
-	
-	
 	public Integer getId() {
 		return id;
 	}

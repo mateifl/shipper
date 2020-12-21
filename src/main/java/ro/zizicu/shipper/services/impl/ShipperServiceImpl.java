@@ -4,14 +4,13 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import ro.zizicu.nwbase.impl.CrudServiceImpl;
-import ro.zizicu.shipper.data.ShipperRepository;
+import ro.zizicu.nwbase.service.impl.CrudServiceImpl;
 import ro.zizicu.shipper.entities.Shipper;
 import ro.zizicu.shipper.services.ShipperService;
 
 @Service
 public class ShipperServiceImpl 
-		extends CrudServiceImpl<ShipperRepository, Shipper, Integer> 
+		extends CrudServiceImpl<Shipper, Integer> 
 		implements ShipperService 
 {
 
