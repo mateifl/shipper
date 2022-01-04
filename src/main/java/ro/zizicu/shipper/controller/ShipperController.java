@@ -5,7 +5,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import ro.zizicu.nwbase.controller.BasicOperationsController;
 import ro.zizicu.shipper.entities.Shipper;
-import ro.zizicu.shipper.services.ShipperService;
 
 @RestController
 @RequestMapping(value = "shippers")

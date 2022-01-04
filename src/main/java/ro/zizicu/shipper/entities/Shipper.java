@@ -38,4 +38,9 @@ public class Shipper implements IdentityOwner<Integer> {
 	public void setPhone(String phone) {
 		this.phone = phone;
 	}
+	@Override
+	public String getEntityName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
